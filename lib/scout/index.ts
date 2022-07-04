@@ -755,7 +755,7 @@ export class Scout extends EventEmitter {
         try {
             this.asyncNamespace.set(key, undefined);
         } catch {
-            this.logFn("failed to clear async namespace", LogLevel.Debug);
+            // this.logFn("failed to clear async namespace", LogLevel.Debug);
         }
     }
 
